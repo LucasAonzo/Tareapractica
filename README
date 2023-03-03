@@ -1,0 +1,45 @@
+// Hello!!!
+
+// Como recuerdan, el finde pasado arrancamos con la instancia de que investigaran un poco de teoria antes
+// de sumergirse mas en el bootcamp. Luego, el lunes estuvimos viendo algunos ejemplos en una clase
+// teorico-practica (no oficial), y ahora la idea con esta homework es que puedan ir un poco mas a lo practico 
+// para que se sientan como pez en el agua. Vamos a poner a funcionar toda esa teoria que estuvieron chusmeando!!
+
+// Paso 1: En su terminal de visual ejecutar el comando "npm install". De esta manera, todas las dependencias
+// que se encuentran en el package.json se van a poder instalar de manera local en su proyecto.
+
+// Paso 2: Ejecutar "npm start" y deberia de lucir algo como la foto llamada "terminalExample.png" que tienen 
+// aca dentro del proyecto.
+
+// Una vez que ejecuten ese comando, y la consola les muestre el mensaje necesario. Podran arrancar a trabajar en el archivo INDEX.JS... Esta dependencia llamada "nodemon" queda "alerta" a cada cambio, por lo tanto, luego
+// de cada modificacion que hagan en el archivo, deben de guardarlos (ctrl+s/save) y alli la dependencia volvera a
+// reiniciarse sola e ira imprimiendo los console.log() que vayan colocando en el camino.
+
+// Paso 3: La idea de la homework es que sigan cada enunciado, y para saber si accedieron de manera correcta
+// a lo que se les pide, una manera de ir probando y viendo, es poniendo console.log("loQueQuierenImprimir"), es por ello que les pedimos instalar la dependencia anterior, ya que con solo guardar, la consola les ira mostrando todo 
+// lo que este dentro de esos console.log().
+
+// Vamos con un ejemplo: *supongamos que ya hice los pasos anteriores*
+
+// Dado el siguiente ejercicio, acceda al valor "email" de "Carolina":
+
+// const info = [
+//   {
+//     name: "Carolina",
+//     lastName: "Sumoza",
+//     address: "Juan B justo 50000, CABA",
+//     contact: {
+//       email: "caroS@gmail.com",
+//       phone: "111-111-1111",
+//     },
+//   }]
+
+//   const variableEmail=info[0].contact.email
+
+//   *Y para chequear que mi resultado este bien:*
+//   console.log(variableEmail) 
+
+//   *guardo con ctrl + s, y la consola me muestra:*
+//   caroS@gmail.com
+
+//   Exitos!
